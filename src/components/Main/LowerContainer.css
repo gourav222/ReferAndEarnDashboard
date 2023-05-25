@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Poppins:wght@300;400&display=swap");
+.lowerContainer {
+  font-family: "Poppins";
+  margin: -1.8vmax 8vmax 0 15vmax;
+}
+.howDoesItWork {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: normal;
+  align-content: normal;
+  height: 17vmax;
+  margin: -1.5vmax 0 0 3vmax;
+}
+.description {
+  height: 5.3vmax;
+  width: 25vmax;
+  display: flex;
+  align-items: center;
+  margin: 0.3vmax 0 0 0;
+}
+.description img {
+  width: 2.3vmax;
+  height: 1.7vmax;
+}
+.lowerContainer h2{
+  color: #800080;
+}
+.description div p{
+  margin: -1.3vmax 0 0 0;
+  color: rgb(108, 108, 108);
+}
+.description div{
+  margin: 0 0 0 1vmax;
+}
+@media(max-width: 1400px){
+ .lowerContainer{
+  margin: 5vmax 8vmax 0 7vmax;
+ } 
+ .howDoesItWork{
+  height: 25vmax;
+ }
+ .description{
+  height: 6.5vmax;
+ }
+}
+@media(max-width: 1260px){
+  .howDoesItWork{
+    height: 28vmax;
+  }
+  .description{
+    height: 8.5vmax;
+  }
+}
+@media(max-width: 1160px){
+  .howDoesItWork{
+    height: 35vmax;
+  }
+  .description{
+    height: 13vmax;
+  }
+  .description img{
+    width: 3vmax;
+    height: 2vmax;
+  }
+}
+@media(max-width: 920px){
+  .howDoesItWork{
+    height: 45vmax;
+  }
+  .description{
+    height: 16vmax;
+    margin: 5vmax 0 0 0;
+  }
+  .description img{
+    width: 4vmax;
+    height: 3vmax;
+  }
+}
+@media(max-width: 650px){
+  .howDoesItWork{
+    display: block;
+  }
+  .description{
+    height: 13vmax;
+    width: 45vmax; 
+    margin: -1vmax 0 0 2vmax;
+  }
+  .description div p{
+    margin: -3vmax 0 0 0;
+  }
+  .description div{
+    margin: 0 0 0 4vmax;
+  }
+  .lowerContainer h2{
+    margin: 0 0 0 2vmax;
+  }
+}

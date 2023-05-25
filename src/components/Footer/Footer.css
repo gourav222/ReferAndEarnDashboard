@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Poppins:wght@300;400&display=swap");
+.footer button{
+    color: #800080;
+    border: none;
+    font-family: "Poppins";
+    font-size: 1vmax;
+    display: block;
+    font: bold;
+    font-weight:  600;
+    cursor: pointer;
+    margin: 1vmax 0 0 13vmax;
+}
+.footer{
+    margin: 2vmax 0 0 0;
+}
+@media(max-width: 1160px){
+    .footer button{
+        font-size: 1.5vmax;
+    }
+    .footer{
+        margin: -5vmax 0 0 0;
+    }
+}
+@media(max-width: 920px){
+    .footer button{
+        font-size: 1.7vmax;
+    }
+    .footer{
+        margin: -3vmax 0 0 0;
+    }
+}
+@media(max-width: 760px){
+    .footer{
+        margin: 2vmax 0 0 0;
+    }   
+}
+@media(max-width: 650px){
+    .footer button{
+        font-size: 1.9vmax;
+    }
+    .footer{
+        margin: 20vmax 0 0 0;
+    }   
+}

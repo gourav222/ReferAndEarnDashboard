@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Poppins:wght@300;400&display=swap");
+.container {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  margin: 2vmax 9.5vmax 0 15vmax;
+}
+.checkBalance {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 10.5vmax;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.referralsEarning {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 2;
+}
+.totalReferral {
+  grid-row-start: 1;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  grid-column-end: 3;
+  margin-left: 2vmax;
+}
+.walletBalance {
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-end: 2;
+  grid-column-end: 4;
+  margin-left: 3vmax;
+}
+.withDrawBalance {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1vmax;
+}
+.withDrawBalance button {
+  background-color: #800080;
+  border: none;
+  width: 10vmax;
+  height: 2.5vmax;
+  border-radius: 1.25vmax;
+  color: white;
+  font-family: "Poppins";
+}
+.earningReferrals {
+  margin: -1.3vmax 0.2vmax 0 0vmax;
+}
+.referralCode {
+  margin: -1.5vmax 4vmax 0 0;
+  color: #800080;
+}
+.referralCode div {
+  border: 2px solid;
+  padding: 0 2vmax 0 3vmax;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, rgb(243, 99, 4), #800080) border-box;
+  border-radius: 0.5vmax;
+  border: 1.5px solid transparent;
+}
+.referralCode div h3 {
+  font-size: 1.2vmax;
+  letter-spacing: 28px;
+}
+.earningTitle {
+  color: #800080;
+  font-size: 0.8vmax;
+  margin-top: 0.4vmax;
+}
+@media (max-width: 785px) {
+  .container {
+    display: block;
+  }
+  .referralCode {
+    margin: 12vmax 12vmax 0 0;
+  }
+  .referralCode div {
+    width: 40vmax;
+    border-radius: 1vmax;
+  }
+  .referralCode h2 {
+    font-size: 4vmax;
+    font-weight: bolder;
+  }
+  .referralCode div h3 {
+    font-size: 2vmax;
+  }
+  .withDrawBalance button {
+    font-size: 1.9vmax;
+    width: 20vmax;
+    height: 5vmax;
+    margin: 4vmax 0 0 0;
+  }
+  .checkBalance {
+    margin-top: 6vmax;
+  }
+}
+@media (max-width: 1400px) {
+  .withDrawBalance button {
+    width: 20vmax;
+  }
+  .earningTitle {
+    font-size: 1.5vmax;
+  }
+}
+@media (max-width: 550px) {
+  .earningTitle {
+    font-size: 2vmax;
+  }
+  .checkBalance {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 0%;
+    margin-top: 8vmax;
+  }
+  .referralsEarning {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 2;
+    margin: 0 0 0 -2.6vmax;
+  }
+  .totalReferral {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 2;
+    grid-column-end: 3;
+    margin: 0 0 0 5vmax;
+  }
+  .walletBalance {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    margin: 0 0 0 -2.6vmax;
+  }
+  .withDrawBalance {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 3;
+  }
+  .withDrawBalance button {
+    font-size: 1.9vmax;
+    width: 20vmax;
+    height: 5vmax;
+    border-radius: 2.5vmax;
+  }
+  .earningReferrals {
+    margin: -5vmax 0.2vmax 3vmax 0vmax;
+  }
+  .referralCode {
+    margin: 5vmax 12vmax 0 0;
+    color: black;
+  }
+  .referralCode h2 {
+    font-size: 2.8vmax;
+    color: #800080;
+    font-weight: bolder;
+  }
+  .referralCode div {
+    width: 40vmax;
+    border-radius: 2vmax;
+  }
+  .referralCode div h3 {
+    padding-left: 5vmax;
+    font-size: 2.5vmax;
+    letter-spacing: 28px;
+  }
+}
+@media (max-width: 450px) {
+  .referralCode {
+    width: 50vmax;
+  }
+}
+@media (max-width: 400px) {
+  .withDrawBalance button {
+    margin: -3vmax 0 0 7.7vmax;
+  }
+  .referralCode {
+    color: #000;
+    margin: 31vmax 12vmax 0 -10vmax;
+  }
+  .totalReferral{
+    margin: -3vmax 0 0 7.7vmax;
+  }
+}

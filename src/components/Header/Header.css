@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&family=Poppins:wght@300;400&display=swap");
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5vmax 2vmax 0 2vmax;
+}
+.buttons {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: none;
+  border: none;
+  font-family: "Poppins";
+  font: bold;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0.4vmax 1vmax 0 1vmax;
+}
+.profileImage {
+  color: #800080;
+  width: 1.5vmax;
+  height: 1.5vmax;
+  margin: 0vmax 0.5vmax 0 0.5vmax;
+  cursor: pointer;
+}
+.dropDownImage {
+  display: none;
+}
+.headerButtons {
+  display: flex;
+}
+.logImage {
+  width: 9vmax;
+  height: 3vmax;
+}
+.referAndEarn {
+  font-family: "Poppins";
+  font-size: 1vmax;
+  margin: 1.2vmax 0 0 13.5vmax;
+}
+.buttonClick{
+  display: flex;
+  flex-direction: column;
+}
+.buttonClick button{
+  background-color: none;
+  border: none;color: #800080;
+  font-size: 2.5vmax;
+  margin: 1vmax 0 0 0;
+  font: bold;
+  font-weight: 600;
+  cursor: pointer;
+}
+@media(min-width: 770px){
+  .buttonClick{
+    display: none;
+  }
+}
+@media (max-width: 770px) {
+  #headerButton-1 {
+    display: none !important;
+  }
+  #headerButton-2 {
+    display: none !important;
+  }
+  #headerButton-3 {
+    color: white !important;
+    background-color: #800080;
+    border-radius: 1vmax;
+    width: 24vmax;
+    height: 6vmax;
+  }
+  .profileImage {
+    display: none;
+  }
+  .dropDownImage {
+    width: 3.5vmax;
+    height: 3.5vmax;
+    display: block;
+    margin-left: 2vmax;
+    cursor: pointer;
+  }
+  .referAndEarn{
+    margin: 2.5vmax 0 0 4vmax !important;
+  }
+}
+@media (max-width: 1000px) {
+  .logImage {
+    width: 18vmax;
+    height: 6vmax;
+  }
+  #headerButton-1 {
+    font-size: 20px !important;
+  }
+  #headerButton-2 {
+    font-size: 20px !important;
+  }
+  #headerButton-3 {
+    font-size: 20px !important;
+  }
+  .profileImage {
+    width: 4vmax;
+    height: 4vmax;
+    margin-right: 2vmax;
+  }
+  .referAndEarn {
+    font-size: 2vmax;
+    margin: 2.5vmax 0 0 8vmax;
+  }
+}
