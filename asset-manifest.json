@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/TuteDudeReferAndEarnDashboard/static/css/main.9872651a.css",
+    "main.js": "/TuteDudeReferAndEarnDashboard/static/js/main.0abb973c.js",
+    "static/media/sds.png": "/TuteDudeReferAndEarnDashboard/static/media/sds.34ebda5231363156fbfb.png",
+    "static/media/profile-user.png": "/TuteDudeReferAndEarnDashboard/static/media/profile-user.b116c7b7a231508b2b9f.png",
+    "static/media/percent.png": "/TuteDudeReferAndEarnDashboard/static/media/percent.a01afe5b34bf16f716a0.png",
+    "static/media/cover.png": "/TuteDudeReferAndEarnDashboard/static/media/cover.d0e4ae90f1d1531bd27c.png",
+    "static/media/tag.png": "/TuteDudeReferAndEarnDashboard/static/media/tag.a9ab2423dc97b619775e.png",
+    "static/media/inviteFrnd.png": "/TuteDudeReferAndEarnDashboard/static/media/inviteFrnd.64bb5d9c777ac8566a5c.png",
+    "static/media/rupee.png": "/TuteDudeReferAndEarnDashboard/static/media/rupee.9cbda5fb671b0a472e34.png",
+    "index.html": "/TuteDudeReferAndEarnDashboard/index.html",
+    "main.9872651a.css.map": "/TuteDudeReferAndEarnDashboard/static/css/main.9872651a.css.map",
+    "main.0abb973c.js.map": "/TuteDudeReferAndEarnDashboard/static/js/main.0abb973c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9872651a.css",
+    "static/js/main.0abb973c.js"
+  ]
+}
